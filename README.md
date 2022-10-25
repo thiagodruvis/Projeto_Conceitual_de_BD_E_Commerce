@@ -1,5 +1,4 @@
 ***Modelando E-Commerce:*** 
-
 >Produto: 
 - Os produtos são vendidos por uma unica plataforma online. Contudo, estes podem ter vendedores distintos (terceiros)
 - Cada produto possui um fornecedor
@@ -16,5 +15,11 @@
 - O pedido pode ser cancelado
 
 >Entidades: 
-
 - Cliente, Pedido, Produto e Fornecedor & estoque
+
+>Objetivo:
+- Refine o modelo apresentado acrescentando os seguintes pontos:
+
+>Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
+- Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
+- Entrega – Possui status e código de rastreio;
